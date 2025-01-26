@@ -1,389 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lenguajes de Programación</title>
-    <!-- BOOTSTRAP CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-      crossorigin="anonymous"
-    />
-    <!-- FONT AWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="img/web.png" style="width: 5%" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#acerca_de">Acerca de ...</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
-            </li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger Gallegos - Technical Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        h1, h2 { color: #333; }
+        .section { margin-bottom: 20px; }
+        .list-group-item { border: none; }
+        .skills-list li { margin-bottom: 5px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Roger Antonio Gallegos Marvez</h1>
+        <p class="text-center"><strong>Engineer</strong></p>
+        <div class="section">
+            <h2>Personal Information</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>ID:</strong> 27.679.272-5</li>
+                <li class="list-group-item"><strong>Country of Origin:</strong> Venezuela</li>
+                <li class="list-group-item"><strong>Passport (Venezuela):</strong> 146729300</li>
+                 <li class="list-group-item"><strong>Immigration Status:</strong> Visa Approved (Renewal Pending)</li>
+                 <li class="list-group-item"><strong>Chilean ID (RUN):</strong> 27.679.272-5</li>
+                <li class="list-group-item"><strong>Residence:</strong> Concepcion, Chile</li>
+                <li class="list-group-item"><strong>Phone & WhatsApp:</strong> +56999040515</li>
+                <li class="list-group-item"><strong>Email:</strong> roger.gallegos.cl@gmail.com</li>
+            </ul>
+        </div>
+          <div class="section">
+            <h2>Mobility & Availability</h2>
+            <ul class="list-group">
+                 <li class="list-group-item"><strong>Geographic Mobility:</strong> Full</li>
+                <li class="list-group-item"><strong>Immediate Availability:</strong> Yes</li>
+                <li class="list-group-item"><strong>Relocation Availability:</strong> Yes</li>
+                <li class="list-group-item"><strong>Schedule Availability:</strong> 24x7</li>
+            </ul>
+        </div>
+          <div class="section">
+            <h2>Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>University of Carabobo, Venezuela (1993):</strong> Electrical Engineer, Systems and Automation</li>
+                <li class="list-group-item">Various courses in Computer Science and Electronics.</li>
+            </ul>
+        </div>
+          <div class="section">
+            <h2>Technical Skills</h2>
+             <p>Backend development experience, with a specialization in Java:</p>
+                <ul class="list-group skills-list">
+                <li class="list-group-item"><strong>Languages and Frameworks:</strong> 15+ years of experience in Java development, including Java JEE, Sprint Boot, JSP, and REST API microservices.</li>
+                <li class="list-group-item">Proficient in design patterns and UML for architectural design.</li>
+                 <li class="list-group-item"><strong>Frontend Technologies:</strong> Competent in HTML, CSS, Bootstrap, and Thymeleaf for efficient UI design.</li>
+               <li class="list-group-item"><strong>Development Tools:</strong> Extensive experience with IDEs: Netbeans, Eclipse, IntelliJ, Sprint Tool Suite; and project management with Git/GitHub and Google Drive.</li>
+                <li class="list-group-item"><strong>Servers and Containers:</strong> Proficient in web and app servers, including Tomcat, TomEE, and Wildfly. Experience with Docker for containerization.</li>
+                <li class="list-group-item"><strong>Databases:</strong> Solid experience with MySQL, basic knowledge of PostgreSQL and MS SQL.</li>
+               <li class="list-group-item"><strong>Other Languages:</strong> Knowledge of PHP, Python, C#, COBOL, and 20+ years experience in C and C++.</li>
+               <li class="list-group-item"><strong>Operating Systems:</strong> Preference for Linux ecosystem; experience with Ubuntu, Mint, Lubuntu, Xubuntu, Fedora, and others; focus on performance in server environments.</li>
+              <li class="list-group-item"><strong>Languages:</strong> Advanced technical English reading, and B1 level in oral communication.</li>
           </ul>
         </div>
-      </div>
-    </nav>
-
-    <!-- HEADER -->
-    <header class="main-header">
-      <div class="background-overlay text-white py-5">
-        <div class="container">
-          <div class="row d-flex h-100">
-            <div
-              class="col-sm-8 text-center justify-content-center align-self-center"
-            >
-              <h1>Clases particulares de Programación</h1>
-              <h2>en lenguaje C, C++ y Java, de 0 a avanzado</h2>
-
-              <p>
-                Profesor Universitario, con mas de 15 años de experiencia en
-                programación en lenguaje C, C++ y Java/SQL (consola, Swing o
-                WEB), algoritmos, etc.
-              </p>
-              <a
-                href="#acerca_de"
-                class="btn btn-outline-secondary btn-lg text-white"
-              >
-                Leer más
-              </a>
-            </div>
-            <div class="col-sm-4">
-              <img
-                src="img/robot-dreams.jpg"
-                class="img-fluid d-none d-sm-block"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- FEATURES -->
-
-    <section id="features" name="features" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card border-primary">
-              <div class="card-body">
-                <h3>Programación en C</h3>
-                <ul>
-                  <li>Fundamentos del lenguaje C, etiquetas</li>
-                  <li>Estructura de un programa, IDEs</li>
-                  <li>Instrucciones de lectura y presentación</li>
-                  <li>Concepto de variables y tipos</li>
-                  <li>Cadena de caracteres, tabla ascii</li>
-                  <li>Instrucciones de lectura</li>
-                  <li>
-                    Introducción a la programación estructurada (por bloques)
+         <div class="section">
+            <h2>Professional Experience</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Programming Languages Instructor & Java Freelancer:</strong> (2019 - Present)
+                      <ul>
+                        <li>Conducted online classes in Java, C, C++, SQL and related topics for students across Latin America and Spain.</li>
+                        <li>Provided thesis and project guidance, including microservices, API Rest, design patterns, and database design.</li>
+                        <li>Freelance development: legacy project updates, Java migrations, SQL database revisions, debugging, code patches, and feature extensions.</li>
+                      </ul>
+                    </li>
+                  <li class="list-group-item"><strong>CAPIP Sistemas C.A. - Entrepreneurship in Venezuela:</strong> (2012 - 2018)
+                      <ul>
+                        <li>Founded and led a company focused on software development and equipment sales.</li>
+                        <li>Developed significant applications like CAPIP Administrative System (250k+ lines of Java/JasperReport/MySQL code), CAPIP Wholesale and Retail Sales.</li>
+                        <li>Served as university thesis advisor, computer and network maintenance.</li>
+                      </ul>
                   </li>
-                  <li>Instrucciones de decisión</li>
-                  <li>Instrucciones de Control</li>
-                  <li>Introducción a Punteros</li>
-                  <li>Vectores y Matrices</li>
-                  <li>Funciones del lenguaje</li>
-                  <li>Funciones de cadena de caracteres</li>
-                  <li>Funciones del usuario</li>
-                  <li>
-                    Archivos, lectura y escritura, tipo texto, csv y binarios
+                 <li class="list-group-item"><strong>IPC Instalaciones - Construction Administrator:</strong> (2011 – 2012)
+                      <ul>
+                        <li>Managed construction sites, including budget, material reception, and project planning.</li>
+                        <li>Developed internal application for job management, inventory, payroll calculations, and reporting.</li>
+                      </ul>
                   </li>
-                  <li>Estructuras de datos en C</li>
-                  <li>Listas</li>
-                  <li>Pilas</li>
-                  <li>Colas</li>
-                  <li>Arboles</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-white bg-primary">
-              <div class="card-body">
-                <h3>Programación en C++</h3>
-                <ul>
-                  <li>Fundamentos del lenguaje C++, etiquetas</li>
-                  <li>Estructura de un programa, IDEs</li>
-                  <li>Instrucciones de lectura y presentación</li>
-                  <li>Concepto de variables y tipos</li>
-                  <li>Cadena de caracteres, tabla ascii</li>
-                  <li>Instrucciones de lectura</li>
-                  <li>
-                    Introducción a la programación estructurada (por bloques)
+                 <li class="list-group-item"><strong>Thesis and Project Advisor - Freelance:</strong> (2009 – 2010)
+                      <ul>
+                         <li>Provided programming and electronics thesis guidance, C for PICs, and applications for government and private entities.</li>
+                         <li>Performed computer and network maintenance.</li>
+                      </ul>
                   </li>
-                  <li>Instrucciones de decisión</li>
-                  <li>Instrucciones de Control</li>
-                  <li>Introducción a Punteros</li>
-                  <li>Vectores y Matrices</li>
-                  <li>Funciones del lenguaje</li>
-                  <li>Funciones de cadena de caracteres</li>
-                  <li>Funciones del usuario</li>
-                  <li>
-                    Archivos, lectura y escritura, tipo texto, csv y binarios
+                 <li class="list-group-item"><strong>Misión Ciencia - Project Manager & Installation Inspector:</strong> (2007 – 2008)
+                      <ul>
+                        <li>Managed a 20-person team, overseeing $50M+ for the acquisition of scientific equipment for Venezuelan universities.</li>
+                    </ul>
+                 </li>
+                <li class="list-group-item"><strong>Ministry of Higher Education & Ministry of Education, Culture and Sports:</strong> (2001 - 2005 & 2001)
+                    <ul>
+                        <li>Chief Project Engineer and Project Engineer, respectively.</li>
+                    </ul>
                   </li>
-                  <li>Programación OO, Clases, Herencia, Polimorfismo</li>
-                  <li>Estructuras de datos en C++</li>
-                  <li>Listas</li>
-                  <li>Pilas</li>
-                  <li>Colas</li>
-                  <li>Arboles</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card border-primary">
-              <div class="card-body">
-                <h3>Programación en Java</h3>
-                <ul>
-                  <li>Introducción y Primer Programa "Hola Mundo"</li>
-                  <li>Variables y Operaciones Aritméticas</li>
-                  <li>Sentencia if - else</li>
-                  <li>Instrucción For</li>
-                  <li>Instrucción while, do-while</li>
-                  <li>Instrucción break y continue</li>
-                  <li>Ciclos, Serie de Números Impares y Fibonacci</li>
-                  <li>Switch y Case</li>
-                  <li>Vectores - Arreglos unidimensionales</li>
-                  <li>Matrices - Arreglos Bidimensionales</li>
-                  <li>Programación Orientada a Objetos</li>
-                  <li>Clases, Objetos y Métodos</li>
-                  <li>Herencia</li>
-                  <li>Polimorfismo</li>
-                  <li>Manejo de archivos</li>
-                  <li>Leer archivo tipo texto</li>
-                  <li>Escribir archivo tipo texto</li>
-                  <li>Listas Enlazadas con LinkedList</li>
-                  <li>Tutorial de Pilas (Stacks)</li>
-                  <li>Tutorial de Colas</li>
-                  <li>Ordenamiento de Burbuja (Bubble Sort)</li>
-                  <li>Ordenamiento por Inserción (Insertion Sort)</li>
-                  <li>Ordenamiento Quicksort (Rápido!) en Java</li>
-                  <li>
-                    Entorno de Desarrollo para crear una aplicacion gráfica
-                    (GUI)
+                 <li class="list-group-item"><strong>IPOSTEL - Chief Engineer, Telematics Department:</strong> (2000)
                   </li>
-                  <li>Layouts de una GUI</li>
-                  <li>Eventos en una GUI</li>
-                  <li>Crear una GUI</li>
-                  <li>Introduccion a Java Web</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="acerca_de" name="acerca_de" class="m5 text-center bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="m-5">
-            <h3>Acerca de las Clases de Programación</h3>
-            <p>
-              Profesor Universitario, con mas de 15 años de experiencia en
-              programación, pone a disposición su experiencia, para la
-              resolución de Tesis, Proyectos, Trabajos, Exámenes y Problemas,
-              así como también Cursos o Clases completas y detalladas de
-              cualquier tema o problema propuesto por el estudiante, relacionado
-              con la programación en lenguaje C, C++ y Java/SQL (consola, Swing
-              o WEB), problemas de lógica, algoritmos, etc. Resolución de
-              problemas. Realizaciones de tareas y pruebas. Ayudas en cualquier
-              ámbito, incluso a lo largo de un proyecto completo. Esto bajo la
-              plataforma Zoom o Meet, si es necesario me puedo conecta a su
-              computador por Anydesk, por ejemplo con problemas de instalación.
-              Nivel básico, medio o universitario. Trabajo también como
-              Freelance realizando trabajos a nivel profesional.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ACCORDION -->
-    <section class="container text-center p-5">
-      <div class="row">
-        <div class="accordion col-sm-12" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button
-                  class="btn btn-link"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Cual es la disponibilidad de horario y temas ?
-                </button>
-              </h5>
-            </div>
-
-            <div
-              id="collapseOne"
-              class="collapse show"
-              aria-labelledby="headingOne"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                Total flexibilidad a la hora de escoger temas o problemas.
-                Primera hora de prueba gratis. Pudiéramos enfatizar problemática
-                en concreto, o podemos configurar un curso a la medida.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Cual es el costo de la asesoría ?
-                </button>
-              </h5>
-            </div>
-            <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                Honorarios referenciales:
-                <ul>
-                  <li>
-                    En Chile, Banco Estado transferencia cuenta RUT: hora de
-                    clase/consulta 10.000 CLP (se puede ajustar dependiendo del
-                    número de horas), exámenes cortos 15.000 CLP, exámenes
-                    largos 20.000 CLP, trabajos a partir de 15.000 CLP por el
-                    mas básico, en promedio 25.000 CLP. Emergencias, tiene
-                    sobrecargo.
-                  </li>
-                  <li>
-                    Resto del Mundo, Paypal (tarjeta de crédito), o la
-                    plataforma AIRTM: hora de clase/consulta 10 USD (se puede
-                    ajustar dependiendo del número de horas), exámenes cortos 15
-                    USD, exámenes largos 20 USD, trabajos a partir de 15 USD por
-                    el mas básico, en promedio 25 USD. Emergencias, tiene
-                    sobrecargo.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Trabaja con Bases de Datos ?
-                </button>
-              </h5>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                Se maneja bases de datos mysql con xampp y phpmyadmin. Archivos
-                tipo texto, CSV o binarios.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" name="contact" class="bg-light py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9">
-            <h3>Contacto</h3>
-            <form action="">
-              <ul>
-                <li>Ciudad: Santiago de Chile</li>
-                <li>Nombre: Roger Gallegos</li>
-                <li>Email: roger.gallegos.cl@gmail.com</li>
-                <li>WhatsApp: +56999040515</li>
+                  <li class="list-group-item"><strong>Electricidad de Caracas - Distribution Electrical Project Engineer:</strong> (1994 - 1999)
+                    <ul>
+                        <li>Developed a correspondence control system and a COBOL-based ERP for project management and reporting.</li>
+                       <li>Contributed to a client-focused company culture, actively participating in key programming projects.</li>
+                    </ul>
+                 </li>
               </ul>
-            </form>
           </div>
-          <div class="col-lg-3 align-self-center">
-            <img src="img/web.png" alt="" style="width: 50%" />
-          </div>
+        <div class="section">
+            <h2>References</h2>
+            <p>Available upon request.</p>
         </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container p-3">
-        <div class="row text-center text-white">
-          <div class="col ml-auto">
-            <p>Copyright &copy; 2022</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- BOOTSTRAP SCRIPTS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
